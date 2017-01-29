@@ -1,1 +1,20 @@
+title: '//TODO: A Blog'
+author: Shawn Sherwood
+description: > # 
+  A blog about the things I should have already blogged about
+
+url: 'https://ssherwood.github.io'
+twitter_username: shawn_sherwood
+github_username:  ssherwood
+
+show_downloads: false
+google_analytics:
+
+# Build settings
 theme: jekyll-theme-minimal
+gems:
+  - jekyll-feed
+  - github-pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
