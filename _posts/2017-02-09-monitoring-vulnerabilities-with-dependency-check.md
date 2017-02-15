@@ -103,7 +103,7 @@ mvn dependency-check:check
 The report will be generated in the target folder and be called `dependency-check-report.html`.  If
 you open the resulting report in your browser, you'll see a something like this at the top:
 
-![alt text](images/screen-dependency-check-report-top.png "Report Summary")
+![alt text](/images/screen-dependency-check-report-top.png "Report Summary")
 
 In this run, Dependency Check identified 3 vulnerabilities from a generic Spring Boot
 application that I recently generated (specifically, version 1.4.3 from [Spring Initializr](http://start.spring.io/)).
@@ -115,7 +115,7 @@ a legitimate threat.
 Looking specifically at [`CVE-2016-9878`](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-9878),
 we can see that it is flagged a a Medium severity vulnerability.
   
-![alt text](images/screen-dependency-check-cve-2016-9878.png "CVE-2016-9878 Summary")
+![alt text](/images/screen-dependency-check-cve-2016-9878.png "CVE-2016-9878 Summary")
 
 Following the CONFIRM link provided in the report, we find that Pivotal has it documented as a
 vulnerability that "exposes a directory traversal attack".  That might be something that we should
